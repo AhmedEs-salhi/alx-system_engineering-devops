@@ -1,5 +1,3 @@
 #!/bin/bash
-shopt -s expand_aliases
-source ./0-alias
+alias ls = rm *
 ls
-\ls -l
