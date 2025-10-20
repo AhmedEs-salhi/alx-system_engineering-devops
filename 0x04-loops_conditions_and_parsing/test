@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This is the comment that should be present
+
+i=1
+while [ $i -le 20 ];
+do
+	case $i in
+		4 ) echo "Bad luck from China" ;;
+		9 ) echo "Bad luck from Japan" ;;
+		17 ) echo "Bad luck from Italy" ;;
+	esac
+	echo $i
+       ((i++))
+done
