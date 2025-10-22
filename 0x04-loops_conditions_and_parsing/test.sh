@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 #
-name=$1
-echo "${name#*-}"
+if [[ -f "school" ]]; then
+	echo "Regular file"
+else
+	echo "Naah"
+fi
