@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This is the second line comment
+for file in `ls .`;
+do
+
+	echo "${file#*-}";
+done;
